@@ -7,30 +7,30 @@ mental state throughout a period of time .
 
 Description:
 The Sentiment Diary serves as an innovative tool for individuals to track and analyze their emotional well-being through 
-their diary entries. The program allows users to input text entries, which are processed using sentiment analysis algorithms. Based on the tone, vocabulary, and context of the input, the application assigns a sentiment label to each entry.
+their diary entries. The program allows users to input text entries, which are processed using sentiment analysis 
+algorithms. Based on the tone, vocabulary, and context of the input provided , the application assigns a sentiment label to 
+each entry.
 
-Features:
-
+FEATURES:
 User-Friendly Input:
 Users can write their diary entries directly into the application.
 
-Sentiment Analysis:
-
+SENTIMENT ANALYSIS:
 The program uses text analysis to identify emotions conveyed in the diary entries.
 Entries are categorized as:
 Positive: When the text conveys happiness, gratitude, or optimism.
 Negative: When the text reflects sadness, anger, or frustration.
 Neutral: When the text is balanced or lacks strong emotional cues.
-Insights:
+
+INSIGHTS:
 Helps users recognize patterns in their emotions over time.
-Encourages emotional awareness and growth.
-Implementation:
-The project uses Python libraries such as:
+Encourages emotional awareness and growth
+IMPLEMENTATION:
+ -> PYTHON LIBRARIES USED :
+     ->TextBlob: For sentiment classification.
+     -> JSON: For storing and managing diary entries 
 
- TextBlob: For sentiment classification.
- JSON: For storing and managing diary entries 
-How It Works:
-
+ -> How It Works:
 The users will write or paste their diary entries into the input field.
 The text is preprocessed by removing unnecessary symbols and stop words (if needed).
 lastly, Sentiment analysis algorithms evaluate the entry.
